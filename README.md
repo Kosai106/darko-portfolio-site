@@ -1,7 +1,6 @@
 # Portfolio Site
-## Darko Miladinovikj
 
-A personal portfolio site for my friend Darko, build from scratch.
+A personal portfolio site for my friend Darko, build from scratch to fit his general idea.
 
 # TODO
 
