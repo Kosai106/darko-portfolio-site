@@ -1,0 +1,116 @@
+/*TODO: Find a way to make the diagonal cuts, show the background-image */
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:300");
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #0A0908;
+  color: #777;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.topContent {
+  height: 200px;
+  background-image: url("../img/image01.jpg");
+  background: #E74C3C;
+  background-size: cover;
+  background-position: 0 -100px;
+  position: relative;
+}
+
+.topDiagonal {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #E74C3C;
+  border-left: 100vw solid transparent;
+}
+
+.centerContent {
+  height: 400px;
+  background-image: url("../img/image02.jpg");
+  background: #9B59B6;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.bottomDiagonal {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0px;
+  border-bottom: 100px solid #2ECC71;
+  border-left: 100vw solid transparent;
+}
+
+.bottomContent {
+  height: 200px;
+  background-image: url("../img/image03.jpg");
+  background: #2ECC71;
+  background-size: cover;
+  background-position: 0px -100px;
+  overflow: hidden;
+}
+
+.title {
+  color: #EEE;
+  font-size: 48px;
+}
+
+.sub {
+  color: #EEE;
+  font-size: 20px;
+  margin-top: -45px;
+  margin-left: 165px;
+}
+
+.navigation {
+  background: #282828;
+  height: 75px;
+  padding-top: 5px;
+  padding-bottom: 75px;
+}
+
+.footer {
+  background: #282828;
+  height: 15px;
+  padding-top: 20px;
+}
+
+.footer p {
+  margin-top: -15px;
+}
+
+.col-6 {
+  width: 49%;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.right {
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: -22px;
+}
