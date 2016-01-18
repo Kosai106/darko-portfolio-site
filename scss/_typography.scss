@@ -1,0 +1,55 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:300');
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
+
+a, p, h1, h2, h3, h4, h5, h6, li {
+  color :           $color_2;
+  text-decoration : none;
+  font-family :     'Source Sans Pro';
+}
+
+.title {
+  color:$color_2;
+  font-size:48px;
+}
+
+.sub {
+  color:$color_2;
+  font-size:20px;
+  margin-top:-45px;
+  margin-left:165px;
+}
+
+.home {
+  margin-left: -191px;
+}
+
+.break {
+  color: $color_2;
+  margin-left: -217px;
+  margin-top: -40px;
+}
+
+.resume {
+  margin-left: -102px;
+  margin-top: -39px !important;
+}
+
+.title::after {
+  content: $headerh1;
+}
+
+.sub::after {
+  content: $headerh2;
+}
+
+.home::after {
+  content: $link1;
+}
+
+.break::after {
+  content: $break;
+}
+
+.resume::after {
+  content: $link2;
+}

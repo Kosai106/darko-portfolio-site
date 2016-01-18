@@ -1,0 +1,112 @@
+// -- Index Thumbnails ---------------------------------------------------
+
+$bg_img1 : url('../img/serbu/01.jpg');
+$bg_img2 : url('../img/rollingblock/01.jpg');
+$bg_img3 : url('../img/glock/04.jpg');
+$bg_img4 : url('../img/scout/02.jpg');
+$bg_img5 : url('../img/ok2/01.jpg');
+$bg_img6 : url('../img/misc/01.jpg');
+
+
+.img1 {
+	background: $bg_img1;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img1;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb1;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
+}
+.img2 {
+	background: $bg_img2;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img2;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb2;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
+}
+.img3 {
+	background: $bg_img3;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img3;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb3;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
+}
+.img4 {
+	background: $bg_img4;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img4;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb4;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
+}
+.img5 {
+	background: $bg_img5;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img5;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb5;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
+}
+.img6 {
+	background: $bg_img6;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img6;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb6;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
+}

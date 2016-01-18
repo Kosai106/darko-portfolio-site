@@ -1,116 +1,141 @@
-/*TODO: Find a way to make the diagonal cuts, show the background-image */
-
+@charset "UTF-8";
 @import url("http://fonts.googleapis.com/css?family=Roboto:300");
-html {
-  width: 100%;
-  height: 100%;
-}
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:600");
+a, p, h1, h2, h3, h4, h5, h6, li { color: #EEEEEE; text-decoration: none; font-family: 'Source Sans Pro'; }
 
-body {
-  background-color: #0A0908;
-  color: #777;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+.title { color: #EEEEEE; font-size: 48px; }
 
-a {
-  color: #FFF;
-  text-decoration: none;
-}
+.sub { color: #EEEEEE; font-size: 20px; margin-top: -45px; margin-left: 165px; }
 
-.wrapper {
-  width: 900px;
-  margin: 0 auto;
-}
+.home { margin-left: -191px; }
 
-.topContent {
-  height: 200px;
-  background-image: url("../img/image01.jpg");
-  background: #E74C3C;
-  background-size: cover;
-  background-position: 0 -100px;
-  position: relative;
-}
+.break { color: #EEEEEE; margin-left: -217px; margin-top: -40px; }
 
-.topDiagonal {
-  width: 0;
-  height: 0;
-  border-top: 100px solid #E74C3C;
-  border-left: 100vw solid transparent;
-}
+.resume { margin-left: -102px; margin-top: -39px !important; }
 
-.centerContent {
-  height: 400px;
-  background-image: url("../img/image02.jpg");
-  background: #9B59B6;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  position: relative;
-}
+.title::after { content: "Darko Miladinovikj"; }
 
-.bottomDiagonal {
-  width: 0;
-  height: 0;
-  position: absolute;
-  bottom: 0px;
-  border-bottom: 100px solid #2ECC71;
-  border-left: 100vw solid transparent;
-}
+.sub::after { content: "Hard Surface 3D Artist"; }
 
-.bottomContent {
-  height: 200px;
-  background-image: url("../img/image03.jpg");
-  background: #2ECC71;
-  background-size: cover;
-  background-position: 0px -100px;
-  overflow: hidden;
-}
+.home::after { content: "Portfolio"; }
 
-.title {
-  color: #EEE;
-  font-size: 48px;
-}
+.break::after { content: "|"; }
 
-.sub {
-  color: #EEE;
-  font-size: 20px;
-  margin-top: -45px;
-  margin-left: 165px;
-}
+.resume::after { content: "Résumé"; }
 
-.navigation {
-  background: #282828;
-  height: 75px;
-  padding-top: 5px;
-  padding-bottom: 75px;
-}
+.img1 { background: url("../img/serbu/01.jpg"); background-position: center; background-size: cover; }
+.img1:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/serbu/01.jpg"); background-position: center; background-size: cover; }
+.img1:hover::after { content: "Serbu Super Shorty Shotgun"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.footer {
-  background: #282828;
-  height: 15px;
-  padding-top: 20px;
-}
+.img2 { background: url("../img/rollingblock/01.jpg"); background-position: center; background-size: cover; }
+.img2:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/rollingblock/01.jpg"); background-position: center; background-size: cover; }
+.img2:hover::after { content: "Remington 1867 Navy Rolling Block Pistol"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.footer p {
-  margin-top: -15px;
-}
+.img3 { background: url("../img/glock/04.jpg"); background-position: center; background-size: cover; }
+.img3:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/glock/04.jpg"); background-position: center; background-size: cover; }
+.img3:hover::after { content: "Glock 19 Gen 4"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.col-6 {
-  width: 49%;
-}
+.img4 { background: url("../img/scout/02.jpg"); background-position: center; background-size: cover; }
+.img4:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/scout/02.jpg"); background-position: center; background-size: cover; }
+.img4:hover::after { content: "Steyr Scout"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.left {
-  float: left;
-  text-align: left;
-  margin-left: 10px;
-}
+.img5 { background: url("../img/ok2/01.jpg"); background-position: center; background-size: cover; }
+.img5:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/ok2/01.jpg"); background-position: center; background-size: cover; }
+.img5:hover::after { content: "Overkill 2"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.right {
-  float: right;
-  text-align: right;
-  margin-right: 10px;
-  margin-top: -22px;
-}
+.img6 { background: url("../img/misc/01.jpg"); background-position: center; background-size: cover; }
+.img6:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/misc/01.jpg"); background-position: center; background-size: cover; }
+.img6:hover::after { content: "Miscellaneous"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+
+.back-none { background: transparent !important; box-shadow: none !important; }
+
+.no-space { margin-right: 0px !important; }
+
+.full-width { margin: 0 !important; border-radius: 0px !important; }
+
+.text-center { text-align: center !important; }
+
+.t-white { color: #FFFFFF; }
+
+html { overflow-y: scroll; }
+
+html, body { background-color: #1b1d1e; color: #353535; }
+
+hr { color: #EEEEEE; opcaity: 0.25; width: 900px; }
+
+.wrapper { background-color: #212325; padding: 15px; width: 1200px; margin: 0 auto; }
+
+.row { display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+[class*="col-"] { background-color: #353535; height: 300px; margin: 0px 0px 0px 0px; }
+
+[class*="col-"]:last-of-type { margin-right: 0; }
+
+.col-12 { -webkit-flex: 12; -ms-flex: 12; flex: 12; }
+
+.col-11 { -webkit-flex: 11; -ms-flex: 11; flex: 11; }
+
+.col-10 { -webkit-flex: 10; -ms-flex: 10; flex: 10; }
+
+.col-9 { -webkit-flex: 9; -ms-flex: 9; flex: 9; }
+
+.col-8 { -webkit-flex: 8; -ms-flex: 8; flex: 8; }
+
+.col-7 { -webkit-flex: 7; -ms-flex: 7; flex: 7; }
+
+.col-6 { -webkit-flex: 6; -ms-flex: 6; flex: 6; }
+
+.col-5 { -webkit-flex: 5; -ms-flex: 5; flex: 5; }
+
+.col-4 { -webkit-flex: 4; -ms-flex: 4; flex: 4; }
+
+.col-3 { -webkit-flex: 3; -ms-flex: 3; flex: 3; }
+
+.col-2 { -webkit-flex: 2; -ms-flex: 2; flex: 2; }
+
+.col-1 { -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+
+.col-6 { width: 50% !important; }
+
+.info { background-color: #2196f3; }
+
+.warning { background-color: #ff9800; }
+
+.failure { background-color: #f44336; }
+
+.success { background-color: #8bc34a; }
+
+.dark { background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+
+.header { height: auto; }
+.header a { color: #f44336; position: absolute; font-size: 20px; margin-top: -3px; transition: all 0.2s ease-in-out 0s; line-height: 27px; }
+.header a:hover { color: #EEEEEE; box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+
+#title { margin-top: 25%; }
+
+a { color: #EEEEEE; text-decoration: none; transition: all 0.2s ease-in-out 0s; }
+a :hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+
+.folio { height: auto; }
+.folio p { color: gray; width: 900px; margin: 0 auto; }
+.folio h2 { color: gray; }
+.folio a { color: #EEEEEE; text-decoration: none; transition: all 0.2s ease-in-out 0s; }
+.folio a:hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+.folio img { width: 1200px; }
+.folio img:first-of-type { padding-top: 50px; }
+
+.exp { height: auto; }
+.exp p { color: #EEEEEE; padding: 0px 75px 0px 75px; }
+.exp a { color: #EEEEEE; text-decoration: none; transition: all 0.2s ease-in-out 0s; }
+.exp a:hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+
+ul li { color: #757575; list-style-type: square; text-align: left; }
+
+.footer { height: auto; }
+.footer p { color: #f44336; line-height: 10px; }
+.footer a { color: #EEEEEE; transition: all 0.2s ease-in-out 0s; }
+.footer a:hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+
+.grid { background-color: #353535; height: auto; margin: 0px 30px 30px 0px; }
+
+.grid:last-of-type { margin-right: 0; }

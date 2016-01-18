@@ -1,0 +1,172 @@
+//@import "compass/css3";
+@import '_colours.scss';
+@import '_variables.scss';
+@import "_typography.scss";
+@import '_images.scss';
+@import '_states.scss';
+
+html {
+	overflow-y: scroll;
+}
+
+html, body {
+		background-color: $color_3;
+		color: $color_4;
+}
+
+hr {
+	color: $color_2;
+	opcaity: 0.25;
+	width: 900px;
+}
+
+.wrapper {
+	background-color: lighten($color_3, 2.5);
+	padding: 15px;
+	width: $wrapper-width;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+}
+
+[class*="col-"] {
+	background-color: $color_4;
+	height: 300px;
+	margin: 0px $gutter-side $gutter-top 0px;
+}
+
+[class*="col-"]:last-of-type {
+  margin-right: 0;
+}
+
+.col-12 {flex: 12;}
+.col-11 {flex: 11;}
+.col-10 {flex: 10;}
+.col-9 {flex: 9;}
+.col-8 {flex: 8;}
+.col-7 {flex: 7;}
+.col-6 {flex: 6;}
+.col-5 {flex: 5;}
+.col-4 {flex: 4;}
+.col-3 {flex: 3;}
+.col-2 {flex: 2;}
+.col-1 {flex: 1;}
+
+.col-6 {
+	width: 50% !important;
+}
+
+.info {background-color: $blue;}
+.warning {background-color: $yellow;}
+.failure {background-color: $red;}
+.success {background-color: $green;}
+.dark {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));}
+
+.header {
+	height:auto;
+& a {
+	color: $red;
+	position: absolute;
+	font-size: 20px;
+	margin-top: -3px;
+	transition: $transition;
+	line-height: 27px;
+	}
+	& a:hover {
+		color: $color_2;
+		box-shadow: $line;
+		transition: $transition;
+	}
+}
+
+#title {
+	margin-top: 25%;
+}
+
+a {
+	color: $color_2;
+	text-decoration: none;
+	transition: $transition;
+	& :hover {
+		box-shadow: $line;
+		transition: $transition;
+	}
+}
+
+.folio {
+	height: auto;
+	& p {
+		color: darken($color_1, $darken);
+		width: 900px;
+		margin: 0 auto;
+	}
+	& h2 {
+		color: darken($color_1, $darken);
+	}
+	& a {
+		color: $color_2;
+		text-decoration: none;
+		transition: $transition;
+	}
+	& a:hover {
+		box-shadow: $line;
+		transition: $transition;
+	}
+	& img {
+		width: $wrapper-width;
+	}
+	& img:first-of-type {
+		padding-top: 50px;
+	}
+}
+
+.exp {
+	height: auto;
+	& p {
+		color: $color_2;
+		padding: 0px 75px 0px 75px;
+	}
+	& a {
+		color: $color_2;
+		text-decoration: none;
+		transition: $transition;
+	}
+	& a:hover {
+		box-shadow: $line;
+		transition: $transition;
+	}
+}
+
+ul li {
+	color: lighten($color_4, 25);
+	list-style-type: square;
+	text-align: left;
+}
+
+.footer {
+	height: auto;
+	& p {
+		color: $red;
+		line-height: 10px;
+	}
+	& a {
+		color: $color_2;
+		transition: $transition;
+	}
+	& a:hover {
+		box-shadow: $line;
+		transition: $transition;
+	}
+}
+
+.grid {
+	background-color: $color_4;
+	height: auto;
+	margin: 0px 30px 30px 0px;
+}
+
+.grid:last-of-type {
+  margin-right: 0;
+}

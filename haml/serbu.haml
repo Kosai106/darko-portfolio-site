@@ -1,0 +1,51 @@
+%html
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+      %link{:href => "../../css/style.css", :rel => "stylesheet", :type => "text/css"}
+      %title The Portfolio of Darko Miladinovikj - Hard Surface 3D Artist
+  %body#top
+    .wrapper.text-center.back-none
+      .row
+        .col-12.back-none.header
+          %h1.title
+          %h2.sub
+          %nav
+            %a.home{:href => "../index"}
+            %p.break
+            %a.resume{:href => "../resume"}
+
+    %hr
+
+      .wrapper.text-center.back-none
+        .row
+          .col-12.back-none.folio
+            %h2 Serbu Super Shorty Shotgun
+            %p This is a shotgun I made recently intended for game use. I wanted to make a quick and realistic presentation of this gun while making it visually interesting. Triangle count is at 2060 and it uses 1024x1024 texture sheets (diffuse, specular, normal and gloss maps). Rendered in Marmoset Toolbag 2.
+        .row
+          .col-12.back-none.folio
+            %img{:src => "../img/serbu/01.jpg"}
+            %img{:src => "../img/serbu/02.jpg"}
+            %img{:src => "../img/serbu/03.jpg"}
+            %img{:src => "../img/serbu/04.jpg"}
+            %img{:src => "../img/serbu/05.jpg"}
+            %img{:src => "../img/serbu/06.jpg"}
+            %img{:src => "../img/serbu/07.jpg"}
+            %img{:src => "../img/serbu/08.jpg"}
+            %img{:src => "../img/serbu/09.jpg"}
+            %img{:src => "../img/serbu/10.jpg"}
+            %img{:src => "../img/serbu/11.jpg"}
+
+
+    .wrapper.text-center.back-none
+      .row
+        .col-12.back-none.footer
+          %p Last update 12/12/2016
+          %p Copyright © Darko Miladinovikj, unless otherwise stated
+          %p
+            E-mail:
+            %a{:href => "mailto:darko@crash-3d.com"} darko@crash-3d.com
+      .row
+        .col-9.back-none.footer
+        .col-3.back-none.footer{:style => "margin-top: -60px;"}
+          %a{:href => "#top"} Back to top

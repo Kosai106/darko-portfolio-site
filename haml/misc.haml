@@ -1,0 +1,49 @@
+%html
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+      %link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css"}
+      %title The Portfolio of Darko Miladinovikj - Hard Surface 3D Artist
+  %body#top
+    .wrapper.text-center.back-none
+      .row
+        .col-12.back-none.header
+          %h1.title
+          %h2.sub
+          %nav
+            %a.home{:href => "../index.html"}
+            %p.break
+            %a.resume{:href => "../resume.html"}
+
+    %hr
+
+      .wrapper.text-center.back-none
+        .row
+          .col-12.back-none.folio
+            %h2 Miscellaneous
+            %p Here you will find random projects that I've worked on in the last 2 years or so.
+        .row
+          .col-12.back-none.folio
+            %img{:src => "../img/misc/01.jpg"}
+            %img{:src => "../img/misc/02.jpg"}
+            %img{:src => "../img/misc/03.jpg"}
+            %img{:src => "../img/misc/04.jpg"}
+            %img{:src => "../img/misc/06.jpg"}
+            %img{:src => "../img/misc/07.jpg"}
+            %img{:src => "../img/misc/08.jpg"}
+            %img{:src => "../img/misc/09.jpg"}
+            %img{:src => "../img/misc/10.jpg"}
+
+
+    .wrapper.text-center.back-none
+      .row
+        .col-12.back-none.footer
+          %p Last update 12/12/2016
+          %p Copyright © Darko Miladinovikj, unless otherwise stated
+          %p
+            E-mail:
+            %a{:href => "mailto:darko@crash-3d.com"} darko@crash-3d.com
+      .row
+        .col-9.back-none.footer
+        .col-3.back-none.footer{:style => "margin-top: -60px;"}
+          %a{:href => "#top"} Back to top
