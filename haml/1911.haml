@@ -1,0 +1,43 @@
+%html#top
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+      %link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css"}
+      %link{:href => "../img/favicon/16x16.png", :rel => "icon", :type => "image/png", :sizes => "16x16"}
+      %link{:href => "../img/favicon/32x32.png", :rel => "icon", :type => "image/png", :sizes => "32x32"}
+      %link{:href => "../img/favicon/96x96.png", :rel => "icon", :type => "image/png", :sizes => "96x96"}
+      %link{:href => "../img/favicon/144x144.png", :rel => "icon", :type => "image/png", :sizes => "144x144"}
+      %title The Portfolio of Darko Miladinovikj - Hard Surface 3D Artist
+  %body
+    .wrapper.text-center.back-none
+      = Haml::Engine.new(File.read("_header.haml")).render
+
+    %hr
+
+      .wrapper.text-center.back-none
+        .row
+          .col-12.back-none.folio
+            %h2 WWI Era Colt 1911
+            /%p Here's a World War I era Colt 1911. I was going for a super work look. 4k texture sheets, around 9.5k triangles.
+        .row
+          .col-12.back-none.folio
+            %img{:src => "../img/1911/01.jpg"}
+            %img{:src => "../img/1911/02.jpg"}
+            %img{:src => "../img/1911/03.jpg"}
+            %img{:src => "../img/1911/04.jpg"}
+            %img{:src => "../img/1911/05.jpg"}
+            %img{:src => "../img/1911/06.jpg"}
+            %img{:src => "../img/1911/07.jpg"}
+            %img{:src => "../img/1911/08.jpg"}
+            %img{:src => "../img/1911/09.jpg"}
+            %img{:src => "../img/1911/10.jpg"}
+            %img{:src => "../img/1911/11.jpg"}
+            %img{:src => "../img/1911/12.jpg"}
+            %img{:src => "../img/1911/13.jpg"}
+            %img{:src => "../img/1911/14.jpg"}
+            %img{:src => "../img/1911/15.jpg"}
+
+
+    = Haml::Engine.new(File.read("_footer.haml")).render
+  %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"}
+  %script{:src => "../js/scrolling.js"}

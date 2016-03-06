@@ -23,29 +23,45 @@ a, p, h1, h2, h3, h4, h5, h6, li { color: #EEEEEE; text-decoration: none; font-f
 
 .resume::after { content: "Résumé"; }
 
-.img1 { background: url("../img/serbu/01.jpg"); background-position: center; background-size: cover; }
-.img1:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/serbu/01.jpg"); background-position: center; background-size: cover; }
-.img1:hover::after { content: "Serbu Super Shorty Shotgun"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+.img1 { background: url("../img/1911/1911_thumb.jpg"); background-position: center; background-size: cover; }
+.img1:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/1911/1911_thumb.jpg"); background-position: center; background-size: cover; }
+.img1:hover::after { content: "Colt 1911"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.img2 { background: url("../img/rollingblock/01.jpg"); background-position: center; background-size: cover; }
-.img2:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/rollingblock/01.jpg"); background-position: center; background-size: cover; }
-.img2:hover::after { content: "Remington 1867 Navy Rolling Block Pistol"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+.img2 { background: url("../img/karambit/karambit_thumb.jpg"); background-position: center; background-size: cover; }
+.img2:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/karambit/karambit_thumb.jpg"); background-position: center; background-size: cover; }
+.img2:hover::after { content: "Emerson Combat Karambit"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.img3 { background: url("../img/glock/04.jpg"); background-position: center; background-size: cover; }
-.img3:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/glock/04.jpg"); background-position: center; background-size: cover; }
-.img3:hover::after { content: "Glock 19 Gen 4"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+.img3 { background: url("../img/1906/1906_thumb_2.jpg"); background-position: center; background-size: cover; }
+.img3:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/1906/1906_thumb_2.jpg"); background-position: center; background-size: cover; }
+.img3:hover::after { content: "FN Browning 1906"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.img4 { background: url("../img/scout/02.jpg"); background-position: center; background-size: cover; }
-.img4:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/scout/02.jpg"); background-position: center; background-size: cover; }
-.img4:hover::after { content: "Steyr Scout"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+.img4 { background: url("../img/rollingblock/rollingblock_thumb.jpg"); background-position: center; background-size: cover; }
+.img4:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/rollingblock/rollingblock_thumb.jpg"); background-position: center; background-size: cover; }
+.img4:hover::after { content: "Remington 1867 Navy Rolling Block Pistol"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.img5 { background: url("../img/ok2/01.jpg"); background-position: center; background-size: cover; }
-.img5:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/ok2/01.jpg"); background-position: center; background-size: cover; }
-.img5:hover::after { content: "Overkill 2"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+.img5 { background: url("../img/glock/glawk_thumb.jpg"); background-position: center; background-size: cover; }
+.img5:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/glock/glawk_thumb.jpg"); background-position: center; background-size: cover; }
+.img5:hover::after { content: "Glock 19 Gen 4"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
-.img6 { background: url("../img/misc/01.jpg"); background-position: center; background-size: cover; }
-.img6:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/misc/01.jpg"); background-position: center; background-size: cover; }
-.img6:hover::after { content: "Miscellaneous"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+.img6 { background: url("../img/soccerball/soccerball_thumb.jpg"); background-position: center; background-size: cover; }
+.img6:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/soccerball/soccerball_thumb.jpg"); background-position: center; background-size: cover; }
+.img6:hover::after { content: "Soccer ball"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+
+.img7 { background: url("../img/othermisc/othermisc_thumb.jpg"); background-position: center; background-size: cover; }
+.img7:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/othermisc/othermisc_thumb.jpg"); background-position: center; background-size: cover; }
+.img7:hover::after { content: "Miscellaneous"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+
+.img8 { background: url("../img/cod/cod_thumb.jpg"); background-position: center; background-size: cover; }
+.img8:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/cod/cod_thumb.jpg"); background-position: center; background-size: cover; }
+.img8:hover::after { content: "Coming soon..."; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+
+.img9 { background: url("../img/devilsthird/devils_third_thumb.jpg"); background-position: center; background-size: cover; }
+.img9:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/devilsthird/devils_third_thumb.jpg"); background-position: center; background-size: cover; }
+.img9:hover::after { content: "Devil's Third"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
+
+.img10 { background: url("../img/ok2/ok2_thumb.jpg"); background-position: center; background-size: cover; }
+.img10:hover { background: linear-gradient(rgba(244, 67, 54, 0.5), rgba(244, 67, 54, 0.5)), url("../img/ok2/ok2_thumb.jpg"); background-position: center; background-size: cover; }
+.img10:hover::after { content: "Overkill 2"; color: #EEEEEE; font-size: 24px; line-height: 285px; }
 
 .back-none { background: transparent !important; box-shadow: none !important; }
 
@@ -55,7 +71,13 @@ a, p, h1, h2, h3, h4, h5, h6, li { color: #EEEEEE; text-decoration: none; font-f
 
 .text-center { text-align: center !important; }
 
+.text-left { text-align: left !important; }
+
+.text-right { text-align: right !important; }
+
 .t-white { color: #FFFFFF; }
+
+.t-red { color: #f44336; }
 
 html { overflow-y: scroll; }
 
@@ -121,21 +143,45 @@ a :hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-
 .folio h2 { color: gray; }
 .folio a { color: #EEEEEE; text-decoration: none; transition: all 0.2s ease-in-out 0s; }
 .folio a:hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
-.folio img { width: 1200px; }
+.folio img { width: 100%; max-width: 1200px; }
 .folio img:first-of-type { padding-top: 50px; }
 
 .exp { height: auto; }
 .exp p { color: #EEEEEE; padding: 0px 75px 0px 75px; }
-.exp a { color: #EEEEEE; text-decoration: none; transition: all 0.2s ease-in-out 0s; }
-.exp a:hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+.exp a { color: #757575; text-decoration: none; transition: all 0.2s ease-in-out 0s; }
+.exp a:hover { color: #EEEEEE; box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+.exp p { font-size: 1em; }
+.exp h3 { padding: 0px 75px; }
+.exp h4 { font-size: 18px; padding: 0px 75px; margin-bottom: -16px; }
+.exp span { color: gray; }
+.exp .secret { color: #212325; }
 
-ul li { color: #757575; list-style-type: square; text-align: left; }
+ul li { color: color_2; list-style-type: square; text-align: left; }
 
 .footer { height: auto; }
 .footer p { color: #f44336; line-height: 10px; }
 .footer a { color: #EEEEEE; transition: all 0.2s ease-in-out 0s; }
 .footer a:hover { box-shadow: 0px -2px 0px #f44336 inset; transition: all 0.2s ease-in-out 0s; }
+.footer .top { margin-top: -60px; }
+
+.footer.top { margin-top: -60px; }
 
 .grid { background-color: #353535; height: auto; margin: 0px 30px 30px 0px; }
 
 .grid:last-of-type { margin-right: 0; }
+
+@media screen and (max-width: 1199px) { .wrapper { width: auto; }
+  hr { width: 75%; }
+  .folio p { width: auto; }
+  .footer.top { display: none; }
+  .exp p, .exp h3, .exp h4 { padding: 0 10px; }
+  .sub { font-size: 20px; margin-top: -48px; margin-left: auto; }
+  .header a { line-height: 27px; }
+  .home { margin-left: -91px; }
+  .break { margin-left: 8px; margin-top: -5px; }
+  .resume { margin-left: 26px; }
+  .empty { display: none !important; }
+  body > div:nth-child(5) > div:nth-child(1) > div > p:nth-child(2) { line-height: 1.2; }
+  .folio img:first-of-type { padding-top: 0; }
+  .row { display: block; }
+  [class*="col-"] { display: block; } }

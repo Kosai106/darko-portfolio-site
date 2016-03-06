@@ -1,6 +1,6 @@
 // -- Main ---------------------------------------------------------------
 
-$wrapper-width :   1200px; //Set to 'auto' for full-width pages
+$wrapper-width :   1200px; //Set to "auto" for full-width pages
 $gutter-side :     0px;
 $gutter-top :      0px;
 $transition :      all 0.2s ease-in-out 0s;
@@ -8,19 +8,23 @@ $line :            0px -2px 0px $red inset;
 $lheight :         285px;
 $darken :          50;
 
-// -- Text ---------------------------------------------------------------
+// -- Header Text --------------------------------------------------------
 
-$headerh1 :        'Darko Miladinovikj';
-$headerh2 :        'Hard Surface 3D Artist';
-$link1 :           'Portfolio';
-$link2 :           'Résumé';
-$break :           '|';
+$headerh1 :        "Darko Miladinovikj";
+$headerh2 :        "Hard Surface 3D Artist";
+$link1 :           "Portfolio";
+$link2 :           "Résumé";
+$break :           "|";
 
-// -- Thumbnail Tet ------------------------------------------------------
+// -- Thumbnail Text -----------------------------------------------------
 
-$thumb1 :          'Serbu Super Shorty Shotgun';
-$thumb2 :          'Remington 1867 Navy Rolling Block Pistol';
-$thumb3 :          'Glock 19 Gen 4';
-$thumb4 :          'Steyr Scout';
-$thumb5 :          'Overkill 2';
-$thumb6 :          'Miscellaneous';
+$thumb1 :          "Colt 1911";
+$thumb2 :          "Emerson Combat Karambit";
+$thumb3 :          "FN Browning 1906";
+$thumb4 :          "Remington 1867 Navy Rolling Block Pistol";
+$thumb5 :          "Glock 19 Gen 4";
+$thumb6 :          "Soccer ball";
+$thumb7 :          "Miscellaneous";
+$thumb8 :          "Coming soon...";
+$thumb9 :          "Devil's Third";
+$thumb10 :         "Overkill 2";

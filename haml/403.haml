@@ -1,19 +1,16 @@
-%html
+%html#top
 	%head
 		%meta{:charset => "utf-8"}
 			%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
 			%link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css"}
+			%link{:href => "../img/favicon/16x16.png", :rel => "icon", :type => "image/png", :sizes => "16x16"}
+			%link{:href => "../img/favicon/32x32.png", :rel => "icon", :type => "image/png", :sizes => "32x32"}
+			%link{:href => "../img/favicon/96x96.png", :rel => "icon", :type => "image/png", :sizes => "96x96"}
+			%link{:href => "../img/favicon/144x144.png", :rel => "icon", :type => "image/png", :sizes => "144x144"}
 			%title The Portfolio of Darko Miladinovikj - Hard Surface 3D Artist
-	%body#top
+	%body
 		.wrapper.text-center.back-none
-			.row
-				.col-12.back-none.header
-					%h1.title
-					%h2.sub
-					%nav
-						%a.home{:href => "index"}
-						%p.break /
-						%a.resume{:href => "resume"}
+			= Haml::Engine.new(File.read("_header.haml")).render
 
 			.wrapper.text-center.back-none{:style => "padding-top: 50px;"}
 				.row

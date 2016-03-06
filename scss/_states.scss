@@ -16,6 +16,18 @@
   text-align :    center !important;
 }
 
+.text-left {
+  text-align :    left !important;
+}
+
+.text-right {
+  text-align :    right !important;
+}
+
 .t-white {
   color :         $color_1;
+}
+
+.t-red {
+  color :         $red;
 }

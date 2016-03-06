@@ -1,0 +1,35 @@
+%html#top
+%head
+  %meta{:charset => "utf-8"}
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+    %link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "../img/favicon/16x16.png", :rel => "icon", :type => "image/png", :sizes => "16x16"}
+    %link{:href => "../img/favicon/32x32.png", :rel => "icon", :type => "image/png", :sizes => "32x32"}
+    %link{:href => "../img/favicon/96x96.png", :rel => "icon", :type => "image/png", :sizes => "96x96"}
+    %link{:href => "../img/favicon/144x144.png", :rel => "icon", :type => "image/png", :sizes => "144x144"}
+    %title The Portfolio of Darko Miladinovikj - Hard Surface 3D Artist
+  %body
+    .wrapper.text-center.back-none
+      = Haml::Engine.new(File.read("_header.haml")).render
+
+    %hr
+
+      .wrapper.text-center.back-none
+        .row
+          .col-12.back-none.folio
+            %h2 Soccer ball
+            %p "One of these is not like the other" you may be thinking. This was my first attempt at doing physically correct textures and I really liked the outcome, so I wanted to include it here.
+        .row
+          .col-12.back-none.folio
+            %img{:src => "../img/soccerball/01.jpg"}
+            %img{:src => "../img/soccerball/02.jpg"}
+            %img{:src => "../img/soccerball/03.jpg"}
+            %img{:src => "../img/soccerball/04.jpg"}
+            %img{:src => "../img/soccerball/05.jpg"}
+            %img{:src => "../img/soccerball/06.jpg"}
+            %img{:src => "../img/soccerball/07.jpg"}
+
+
+    = Haml::Engine.new(File.read("_footer.haml")).render
+  %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"}
+  %script{:src => "../js/scrolling.js"}

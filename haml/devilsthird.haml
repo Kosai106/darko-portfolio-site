@@ -1,0 +1,66 @@
+%html#top
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+      %link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css"}
+      %link{:href => "../img/favicon/16x16.png", :rel => "icon", :type => "image/png", :sizes => "16x16"}
+      %link{:href => "../img/favicon/32x32.png", :rel => "icon", :type => "image/png", :sizes => "32x32"}
+      %link{:href => "../img/favicon/96x96.png", :rel => "icon", :type => "image/png", :sizes => "96x96"}
+      %link{:href => "../img/favicon/144x144.png", :rel => "icon", :type => "image/png", :sizes => "144x144"}
+      %title The Portfolio of Darko Miladinovikj - Hard Surface 3D Artist
+  %body
+    .wrapper.text-center.back-none
+      = Haml::Engine.new(File.read("_header.haml")).render
+
+    %hr
+
+      .wrapper.text-center.back-none
+        .row
+          .col-12.back-none.folio
+            %h2 Devil's Third (PC/Wii U)
+            %p This is an old-gen game that I worked on in the first quarter of 2014 with Shapefarm. I was tasked with doing weapons for first person (and third person) use. The game was made in UE3 so the textures are old-gen and they use a grayscale specular map.
+        .row
+          .col-12.back-none.folio
+            %img{:src => "../img/devilsthird/01.jpg"}
+            %img{:src => "../img/devilsthird/02.jpg"}
+            %img{:src => "../img/devilsthird/03.jpg"}
+            %img{:src => "../img/devilsthird/04.jpg"}
+            %img{:src => "../img/devilsthird/05.jpg"}
+            %img{:src => "../img/devilsthird/06.jpg"}
+            %img{:src => "../img/devilsthird/07.jpg"}
+            %img{:src => "../img/devilsthird/08.jpg"}
+            %img{:src => "../img/devilsthird/09.jpg"}
+            %img{:src => "../img/devilsthird/10.jpg"}
+            %img{:src => "../img/devilsthird/11.jpg"}
+            %img{:src => "../img/devilsthird/12.jpg"}
+            %img{:src => "../img/devilsthird/13.jpg"}
+            %img{:src => "../img/devilsthird/14.jpg"}
+            %img{:src => "../img/devilsthird/15.jpg"}
+            %img{:src => "../img/devilsthird/16.jpg"}
+            %img{:src => "../img/devilsthird/17.jpg"}
+            %img{:src => "../img/devilsthird/18.jpg"}
+            %img{:src => "../img/devilsthird/19.jpg"}
+            %img{:src => "../img/devilsthird/20.jpg"}
+            %img{:src => "../img/devilsthird/21.jpg"}
+            %img{:src => "../img/devilsthird/22.jpg"}
+            %img{:src => "../img/devilsthird/23.jpg"}
+            %img{:src => "../img/devilsthird/24.jpg"}
+            %img{:src => "../img/devilsthird/25.jpg"}
+            %img{:src => "../img/devilsthird/26.jpg"}
+            %img{:src => "../img/devilsthird/27.jpg"}
+            %img{:src => "../img/devilsthird/28.jpg"}
+            %img{:src => "../img/devilsthird/29.jpg"}
+            %img{:src => "../img/devilsthird/30.jpg"}
+            %img{:src => "../img/devilsthird/31.jpg"}
+            %img{:src => "../img/devilsthird/32.jpg"}
+            %img{:src => "../img/devilsthird/33.jpg"}
+            %img{:src => "../img/devilsthird/34.jpg"}
+            %img{:src => "../img/devilsthird/35.jpg"}
+            %img{:src => "../img/devilsthird/36.jpg"}
+            %img{:src => "../img/devilsthird/37.jpg"}
+            %img{:src => "../img/devilsthird/38.jpg"}
+
+
+    = Haml::Engine.new(File.read("_footer.haml")).render
+  %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"}
+  %script{:src => "../js/scrolling.js"}
