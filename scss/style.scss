@@ -115,8 +115,7 @@ a {
 		transition: $transition;
 	}
 	& img {
-		width: 100%;
-		max-width: $wrapper-width;
+		width: $wrapper-width;
 	}
 	& img:first-of-type {
 		padding-top: 50px;
@@ -125,43 +124,23 @@ a {
 
 .exp {
 	height: auto;
-	p {
+	& p {
 		color: $color_2;
 		padding: 0px 75px 0px 75px;
 	}
-	a {
-		color: lighten($color_4, 25);
+	& a {
+		color: $color_2;
 		text-decoration: none;
 		transition: $transition;
 	}
-	a:hover {
-		color: $color_2;
+	& a:hover {
 		box-shadow: $line;
 		transition: $transition;
-	}
-	p {
-		font: {
-			size: 1em;
-		}
-	}
-	h3 {
-		padding: 0px 75px;
-	}
-	h4 {
-		font-size: 18px;
-		padding: 0px 75px;
-		margin-bottom: -16px;
-	}
-	span {
-		color: darken($color_1, $darken);
-	}
-	.secret {
-		color: lighten($color_3, 2.5);
 	}
 }
 
 ul li {
-	color: color_2;
+	color: lighten($color_4, 25);
 	list-style-type: square;
 	text-align: left;
 }
@@ -180,12 +159,6 @@ ul li {
 		box-shadow: $line;
 		transition: $transition;
 	}
-	.top {
-		margin-top: -60px;
-	}
-}
-.footer.top {
-	margin-top: -60px;
 }
 
 .grid {
@@ -196,58 +169,4 @@ ul li {
 
 .grid:last-of-type {
   margin-right: 0;
-}
-
-@media screen
-  and (max-width: 1199px)  {
-	.wrapper {
-		width: auto;
-	}
-	hr {
-		width: 75%;
-	}
-	.folio p {
-		width: auto;
-	}
-	.footer.top {
-		display: none;
-	}
-	.exp {
-		p, h3, h4 {
-			padding: 0 10px;
-		}
-	}
-	.sub {
-		font-size: 20px;
-		margin-top: -48px;
-		margin-left: auto;
-	}
-	.header a {
-		line-height: 27px;
-	}
-	.home {
-		margin-left: -91px;
-	}
-	.break {
-		margin-left: 8px;
-		margin-top: -5px;
-	}
-	.resume {
-		margin-left: 26px;
-	}
-	.empty {
-		display: none !important;
-	}
-	body > div:nth-child(5) > div:nth-child(1) > div > p:nth-child(2) {
-		line-height: 1.2;
-	}
-	.folio img:first-of-type {
-		padding-top: 0;
-	}
-	.row {
-		display: block;
-	}
-	[class*="col-"] {
-		display: block;
-	}
 }

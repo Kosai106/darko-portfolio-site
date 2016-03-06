@@ -1,63 +1,112 @@
 // -- Index Thumbnails ---------------------------------------------------
 
-$bg_img1 : url('../img/1911/1911_thumb.jpg');
-$bg_img2 : url('../img/karambit/karambit_thumb.jpg');
-$bg_img3 : url('../img/1906/1906_thumb_2.jpg');
-$bg_img4 : url('../img/rollingblock/rollingblock_thumb.jpg');
-$bg_img5 : url('../img/glock/glawk_thumb.jpg');
-$bg_img6 : url('../img/soccerball/soccerball_thumb.jpg');
-$bg_img7 : url('../img/othermisc/othermisc_thumb.jpg');
-$bg_img8 : url('../img/cod/cod_thumb.jpg');
-$bg_img9 : url('../img/devilsthird/devils_third_thumb.jpg');
-$bg_img10 : url('../img/ok2/ok2_thumb.jpg');
+$bg_img1 : url('../img/serbu/01.jpg');
+$bg_img2 : url('../img/rollingblock/01.jpg');
+$bg_img3 : url('../img/glock/04.jpg');
+$bg_img4 : url('../img/scout/02.jpg');
+$bg_img5 : url('../img/ok2/01.jpg');
+$bg_img6 : url('../img/misc/01.jpg');
 
 
-@mixin portfolio_img($bg_img:$bg_img1, $thumb:$thumb1, $color:$color_2, $lheight:$lheight) {
-  background: $bg_img;
+.img1 {
+	background: $bg_img1;
 	background-position: center;
 	background-size: cover;
 	&:hover {
 		background: linear-gradient(
-		$overlay, $overlay), $bg_img;
+		$overlay, $overlay), $bg_img1;
 		background-position: center;
 		background-size: cover;
 		&::after {
-			content: $thumb;
-			color: $color;
+			content: $thumb1;
+			color: $color_2;
 			font-size: 24px;
 			line-height: $lheight;
 		}
 	}
 }
-
-
-.img1 {
-	@include portfolio_img($bg_img1, $thumb1);
-}
 .img2 {
-	@include portfolio_img($bg_img2, $thumb2);
+	background: $bg_img2;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img2;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb2;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
 }
 .img3 {
-	@include portfolio_img($bg_img3, $thumb3);
+	background: $bg_img3;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img3;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb3;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
 }
 .img4 {
-	@include portfolio_img($bg_img4, $thumb4);
+	background: $bg_img4;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img4;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb4;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
 }
 .img5 {
-	@include portfolio_img($bg_img5, $thumb5);
+	background: $bg_img5;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img5;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb5;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
 }
 .img6 {
-	@include portfolio_img($bg_img6, $thumb6);
-}
-.img7 {
-	@include portfolio_img($bg_img7, $thumb7);
-}
-.img8 {
-	@include portfolio_img($bg_img8, $thumb8);
-}
-.img9 {
-	@include portfolio_img($bg_img9, $thumb9);
-}
-.img10 {
-	@include portfolio_img($bg_img10, $thumb10);
+	background: $bg_img6;
+	background-position: center;
+	background-size: cover;
+	&:hover {
+		background: linear-gradient(
+		$overlay, $overlay), $bg_img6;
+		background-position: center;
+		background-size: cover;
+		&::after {
+			content: $thumb6;
+			color: $color_2;
+			font-size: 24px;
+			line-height: $lheight;
+		}
+	}
 }
