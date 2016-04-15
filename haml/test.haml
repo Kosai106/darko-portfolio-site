@@ -7,28 +7,17 @@
 			%link{:href => "../img/favicon/32x32.png", :rel => "icon", :type => "image/png", :sizes => "32x32"}
 			%link{:href => "../img/favicon/96x96.png", :rel => "icon", :type => "image/png", :sizes => "96x96"}
 			%link{:href => "../img/favicon/144x144.png", :rel => "icon", :type => "image/png", :sizes => "144x144"}
-			%title The Portfolio of Darko Miladinovikj - Hard Surface 3D Artist
+			%title The Portfolio of Darko Miladinovikj
 	%body
 		.wrapper.text-center.back-none
 			= Haml::Engine.new(File.read("_header.haml")).render
 
+
 			.wrapper.text-center.back-none{:style => "padding-top: 50px;"}
 				.row
-					.col-12.grid.back-none
-						%h3 Work experience:
-				.row
-					.col-2.grid.back-none.t-white
-						%p
-					.col-4.grid.back-none.t-white
-						%p January 2015 - March 2015 Heroic Stand
-						%p Worked as Lead artist for a small independent studio. My responsibilities included managing outsourced material, creation of training videos to speed up the workflow of the team and production. We were assigned with creating next-generation PBR textures for several WW2 vehicles with engine-specific requirements.
-					.col-4.grid.back-none.t-white
-						%p April -~ Art Bully Productions
-						%p Worked on several next-generation AAA titles with varying requirements. One included doing work for a VR (Virtual Reality) game which required considerably more detail than your average AAA game asset. All assets were held to the higest standards of the game industry.
-					.col-2.grid.back-none.t-white
-						%p
+					.col-12.back-none.exp
+						%h1 Download
+						%a{:href => "../download.zip"} Download source codes (.zip)
 
-
-		= Haml::Engine.new(File.read("_footer.haml")).render
 	%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"}
 	%script{:src => "../js/scrolling.js"}

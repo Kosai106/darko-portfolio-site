@@ -16,7 +16,6 @@ html, body {
 
 hr {
 	color: $color_2;
-	opcaity: 0.25;
 	width: 900px;
 }
 
@@ -115,32 +114,48 @@ a {
 		transition: $transition;
 	}
 	& img {
-		width: $wrapper-width;
+		max-width: $wrapper-width;
 	}
 	& img:first-of-type {
-		padding-top: 50px;
+		margin-top: 50px;
+	}
+	h3.t-red {
+		color: $red;
 	}
 }
 
 .exp {
 	height: auto;
-	& p {
+	p {
 		color: $color_2;
-		padding: 0px 75px 0px 75px;
+		padding: 0px 75px;
 	}
-	& a {
-		color: $color_2;
+	a {
+		color: lighten($color_4, 25);
 		text-decoration: none;
 		transition: $transition;
+		&:hover {
+			color: $color_2;
+			box-shadow: $line;
+			transition: $transition;
+		}
 	}
-	& a:hover {
-		box-shadow: $line;
-		transition: $transition;
+	h3 {
+		color: $red;
+	}
+	h4 {
+		margin-bottom: -15px;
+	}
+	h3, h4 {
+		margin-left: 75px;
+	}
+	span {
+		color: lighten($color_4, 25);
 	}
 }
 
 ul li {
-	color: lighten($color_4, 25);
+	color: $color_2;
 	list-style-type: square;
 	text-align: left;
 }
@@ -160,6 +175,9 @@ ul li {
 		transition: $transition;
 	}
 }
+.footer.top {
+	margin-top: -60px;
+}
 
 .grid {
 	background-color: $color_4;
@@ -169,4 +187,85 @@ ul li {
 
 .grid:last-of-type {
   margin-right: 0;
+}
+
+@media screen and (max-width: 1199px) {
+	hr {
+		width: 75%;
+	}
+	.wrapper {
+		width: auto;
+		.row {
+			.folio {
+				img {
+					width: 100%;
+					max-width: $wrapper-width;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 775px) {
+	.wrapper {
+		.row {
+			display: block;
+			[class*="col-"] {
+				display: block;
+			}
+		}
+	}
+	.footer.top {
+		display: none !important;
+	}
+	.empty {
+		display: none !important;
+	}
+	.row.skills {
+		display: flex;
+	}
+	.exp {
+		p, h3, h4 {
+			margin-left: 0;
+			padding: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.title {
+		font-size: 40px;
+	}
+	.sub {
+		margin-top: -40px;
+		margin-left: 0;
+	}
+	.break {
+		margin-top: -15px;
+		margin-left: 3px;
+	}
+	.home {
+		margin-left: -95px;
+	}
+	.resume {
+		margin-left: 25px;
+	}
+	.row.skills {
+		display: block;
+	}
+	.folio h3.t-red {
+		text-align: left;
+	}
+	ul {
+		margin-left: -20px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.sub {
+		margin-top: -30px;
+	}
+	.footer p {
+		line-height: 17px;
+	}
 }
